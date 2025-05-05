@@ -2,7 +2,6 @@ from flask import Flask
 
 
 app = Flask(__name__)
-app.run(debug=True)
 
 # First simple implementation of the Flask API
 
@@ -10,6 +9,7 @@ app.run(debug=True)
 def hello():
     return {"response": "Test was successful!"}
 
+app.run(debug=True)
 
 # First simple logic to test the Flask API
 

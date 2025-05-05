@@ -2,3 +2,4 @@ requests
 Flask
 ollama
 flask-cors
+azure-ai-inference

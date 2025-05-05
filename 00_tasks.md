@@ -29,8 +29,8 @@ Next, we want to incrementally build a python backend that utilized ollama via a
 4. Modify your file, so that the response is shown as a stream in the terminal (flushed) [02_stream_response.py]
 5. Make an interactive version of your backend
    1. Prompt the user to ask a question
-   2. Implement a strategy to allow the user to ask other questions after the first question was answered
-   3. Make the LLM "remember the conversation" so you can chat with it on a continuous topic [03_interactive.py]
+   2. Implement a strategy to allow the user to ask other questions after the first question was answered[03_restricted_interactive.py]
+   3. Make the LLM "remember the conversation" so you can chat with it on a continuous topic [04_interactive.py]
 
 ## Flask and Angular basics
 In order to make the app more capable, we first need to install Flask to build a REST-API and make it visually more appealing by using Angular, a TypeScript based Frontend Framework.
@@ -58,7 +58,7 @@ Finish the started project and implement all the features, we have learned about
     - Visualize the chat history
     - Implement concurrent chats (so not all chats share the same history)
     - Modify the system prompt by creating a new model
-    - You can test the ollama module in the backend, that make handling requests easier
+    - You can test the ollama module in the backend, that makes handling requests easier
 
 
 ### FAQ/Course Chatbot
@@ -68,6 +68,4 @@ So we need to make sure, that the llm has data about the courses we have questio
 The Moduldatenbank of the FH is openly accessible, so we can get data from there. 
 If interested, we can discuss possible ways to address this task in person.
 
-
-### Real World Project
-See 04_MD_LLM-Tool.md for details.
+### Your Idea
