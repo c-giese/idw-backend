@@ -39,7 +39,7 @@ In order to make the app more capable, we first need to install Flask to build a
    1. Create a new python file and initialize a Flask app
    2. Create a first get route that returns an arbitrary string
    3. Start the app and test the route in the browser
-2. Clone the angular repository with `git clone https://github.com/c-giese/idw-frontend.git` + `run npm install` in the directory
+2. Clone the angular repository with `git clone https://github.com/c-giese/idw-frontend.git` + run `npm install` in the directory
 3. Run `ng serve` in the frontend directory to start the app and test the implemented get request.
 4. Add a static request to ollama in the backend, and return that value as answer to the get request.
 5. Implement post requests and make the frontend interactive

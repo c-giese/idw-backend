@@ -4,11 +4,11 @@ A Python virtual environment is a self-contained directory tree that contains a 
 Think of it like having separate toolboxes for different projects. Each toolbox has its own set of tools (Python packages) in specific versions, ensuring that using a tool in one toolbox doesn't affect the tools or projects in another.
 
 ## How to use one
-Create a new virtual environment with the name ENVIRONMENT_NAME
-`python -m venv <ENVIRONMENT_NAME>`
+Create a new virtual environment with the name .venv
+`python -m venv .venv`
 
 Activate the environment 
-`<ENVIRONMENT_NAME>/Scripts/activate`
+`.\.venv\Scripts\activate`
 
 ### Useful command
 `pip list` Shows all installed dependencies

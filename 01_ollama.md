@@ -10,8 +10,7 @@ In essence, Ollama acts like a server or runtime specifically for running LLMs l
 ## How to use it?
 
 1. Install ollama from https://ollama.com/
-2. In commandline `ollama serve` Starts the background server and show information
-3. `ollama run <MODEL_NAME>` Starts the model locally (If absent, it loads it first)
-4. Now you can chat with the model
-5. Create a custom version of an llm with Modelfile and `ollama create <NEW_MODEL_NAME> -f ./modelfile`
+2. `ollama run Phi3:latest` Starts the model locally (If absent, it loads it first)
+3. Now you can chat with the model
+4. Create a custom version of an llm with Modelfile and `ollama create <NEW_MODEL_NAME> -f ./modelfile`
     -> This model can be used like the others with `ollama run` or via api
